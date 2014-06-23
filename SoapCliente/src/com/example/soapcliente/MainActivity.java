@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		nro1=(EditText) findViewById(R.id.nro1);
-		nro2=(EditText) findViewById(R.id.nro1);
+		nro2=(EditText) findViewById(R.id.nro2);
 		sumar=(Button) findViewById(R.id.suma);
 		
 		sumar.setOnClickListener(new OnClickListener() {
